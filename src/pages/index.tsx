@@ -158,16 +158,16 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
+    #logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+      #childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
+        #fixed {
+        #  ...GatsbyImageSharpFixed
+        #}
+      #}
+    #}
+    header: file(relativePath: { eq: "img/coffee-cup.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
