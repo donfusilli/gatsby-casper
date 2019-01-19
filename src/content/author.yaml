@@ -13,3 +13,7 @@
   website: https://ghost.org/
   location: On a plane
   profile_image: img/alex-knight-326705-unsplash.jpg
+- id: Don
+  avatar: avatars/ghost.png
+  location: NY/NJ
+  profile_image: img/alex-knight-326705-unsplash.jpg
