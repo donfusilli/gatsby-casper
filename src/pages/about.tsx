@@ -38,8 +38,17 @@ const About: React.FunctionComponent = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                To be written...
+                I'm currently enjoying the following tech things:
+                <ul>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Sass</li>
+                  <li>Redux</li>
+                  <li>Node.js</li>
+                  <li>a little TypeScript</li>
+                </ul>
               </p>
+              <p>Besides programming, I enjoy traveling, basketball, football, and playing with my dog Boots.</p>
             </div>
           </PostFullContent>
         </article>
