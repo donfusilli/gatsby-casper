@@ -88,6 +88,9 @@ const Footer: React.FunctionComponent = () => {
           <a href="https://github.com/donfusilli" target="_blank" rel="noopener noreferrer">
             Github
           </a>
+          <a href="https://stackoverflow.com/users/1144544/don?tab=profile" target="_blank" rel="noopener noreferrer">
+            StackOverflow
+          </a>
         </SiteFooterNav>
       </div>
     </footer>
