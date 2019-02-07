@@ -5,7 +5,7 @@ image: img/code-2.jpg
 author: Don
 date: 2019-02-05T07:03:47.149Z
 draft: false
-tags: []
+tags: ["JavaScript"]
 ---
 
 We know we can use Lodash's <a href="https://lodash.com/docs/4.17.10#omit" target="_blank">_.omit</a> on an object to return a new object with some
