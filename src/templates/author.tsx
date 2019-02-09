@@ -93,8 +93,6 @@ interface AuthorTemplateProps {
     authorYaml: {
       id: string;
       website?: string;
-      twitter?: string;
-      facebook?: string;
       location?: string;
       profile_image?: {
         childImageSharp: {
@@ -249,9 +247,7 @@ export const pageQuery = graphql`
     authorYaml(id: { eq: $author }) {
       id
       website
-      twitter
       bio
-      facebook
       location
       profile_image {
         childImageSharp {
