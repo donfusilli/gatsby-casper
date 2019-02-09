@@ -6,6 +6,7 @@ import * as React from 'react';
 import styled from '@emotion/styled'
 import { css } from 'emotion'
 import { Helmet } from 'react-helmet';
+import { DiscussionEmbed } from 'disqus-react';
 
 import AuthorCard from '../components/AuthorCard';
 import Footer from '../components/Footer';
@@ -305,6 +306,14 @@ const PageTemplate: React.FunctionComponent<PageTemplateProps> = props => {
             </article>
           </div>
         </main>
+        <aside className={`${outer}`}>
+          <div className={`${inner}`}>
+            <DiscussionEmbed
+              shortname="donwcarpenter-com"
+              config={{ identifier: post.frontmatter.title, title: post.frontmatter.title, }}
+            />
+          </div>
+        </aside>
 
         {/* Links to Previous/Next posts */}
         <aside className={`read-next ${outer}`}>
